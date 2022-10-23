@@ -1,38 +1,59 @@
-# lenght =  22.4
-# width = 50.9
-# area = lenght * width
-# print(int(area))
+# subj = int(input('grade : '))
 
-#================================================================
+# sum = subj1 + subj2 + subj3 + subj4
+# avg = sum / 4
 
-# name = "bozhen"
-# age = "22"
-# address = "qaradax"
-# email = "bozhen964@gmail.com"
-# print(name, age, address, email)
+# if avg < 2 : print('FAILED')
+# else : print('PASS')
+
 
 #================================================================
 
 
-# name = input("Name : ")
-# age = input("Age : ")
-# address = input("Address : ")
-# email = input("Email : ")
-# print(name, age, address, email)
+# number1 = int(input('Number 1 : '))
+# number2 = int(input('Number 2 : '))
+
+# if number1 > number2 :  print('Number 1 is bigger')
+# elif number1 < number2 :  print('Number 2 is bigger')
+
+
 
 #================================================================
 
-# d1 = 14.8
-# d2 = 5.3
+# a = int(input('Enter first number  : '))
+# b = int(input('Enter second number : '))
+# c = int(input('Enter third number  : '))
 
-# add = d1 + d2
-# sub = d1 - d2
-# mul = d1 * d2
-# div = d1 / d2
+# smallest = 0
 
-# print(int(add))
-# print(int(sub))
-# print(int(mul))
-# print(int(div))
+# if a < b and a < c :
+#     smallest = a
+# if b < a and b < c :
+#     smallest = b
+# if c < a and c < b :
+#     smallest = c
+
+# print(smallest, "is the smallest of three numbers.")
+
 
 #================================================================
+
+
+# num = float(input("Enter a number: "))
+# if num > 0:
+#    print("Positive number")
+# elif num == 0:
+#    print("Zero")
+# else:
+#    print("Negative number")
+
+
+#================================================================
+
+
+# num = int(input("Enter a number: "))
+
+# if (num % 2) == 0:
+#    print(num, ' is even')
+# else:
+#    print(num , ' is odd')
